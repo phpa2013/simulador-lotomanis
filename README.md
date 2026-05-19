@@ -1,4 +1,4 @@
-🎲 Sistema de Sorteio Numérico — JavaScript Modular
+🎲 Sistema de Sorteio Numérico — JavaScript Modular  => link: https://phpa2013.github.io/simulador-lotomanis/
 
 Projeto desenvolvido com foco em arquitetura modular, manipulação de DOM, gerenciamento de estado e separação de responsabilidades utilizando JavaScript puro (Vanilla JS).
 
