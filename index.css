@@ -1,0 +1,77 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #e7e6e6;
+}
+.container{
+    width: 100%;
+    max-width: 31em;
+    margin: 1em auto;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.contentBtns, .contentSorteio{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    padding: .5em;
+}
+.p{
+    border-bottom: 2px solid #ccc;
+    text-transform: uppercase;
+    margin: .25em 0;
+    color: red;
+}
+.p.acabou{
+    color: blue;
+}
+.contentBtns button, .contentSorteio button{
+    cursor: pointer;
+    border-radius: 1em;
+    padding: .75em;
+    outline: 2px solid orange;
+    border: transparent;
+    margin: .25em;
+    color: orange;
+    font-weight:bold ;
+}
+
+.contentBtns button:active{
+    transform: scale(.98);
+}
+.contentBtns button.escolhido{
+    background-color: orange;
+    color: black;
+}
+.contentSorteio button.hit{
+    background-color: green;
+    color: rgb(197, 195, 195);
+}
+.btns{
+    display: flex;
+    gap: .25em;
+    align-items: center;
+}
+
+.btns button{
+    cursor: pointer;
+    flex: 1;
+    padding: .5em;
+    border-radius: 1em;
+}
+
+.btns button:nth-of-type(1).active{
+    background-color: green;
+    color: white;
+}
+
+
